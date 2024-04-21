@@ -10,11 +10,11 @@
     <p>Sabia que o maior estímulo no desenvolvimento científico e cultural é a curiosidade? Deixe seus questionamentos
       ou sugestões para o autor!</p>
     <div class="linha"></div>
-    <button class="buton" (click)="toggleTopicForm()">Criar tópico</button>
+    <button class=".btn-create-topic" id="buton" (click)="toggleTopicForm()">Criar tópico</button>
   </div>
 </section>
 
-<form *ngIf="showTopicForm" (submit)="submitTopic()">
+<form  class="subject"  *ngIf="showTopicForm" (submit)="submitTopic()">
   <p>Tem uma dúvida ou sugestão? Compartilhe seu feedback com os autores!</p>
   <label for="subject">Assunto:</label>
   <input type="text" id="subject" class="subject" placeholder="Defina um tópico sucinto para notificar os autores..."

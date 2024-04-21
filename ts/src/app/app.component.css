@@ -85,7 +85,7 @@ main {
   width: 100%;
   justify-content: space-between;
 }
-.comeco h3 {
+.comeco h2 {
   color: #ed7839;
   font-size: 1.6rem;
   width: 60%;
@@ -214,7 +214,7 @@ main {
   height: 100px;
   overflow: hidden;
 }
-.mainn .read-more-btn {
+.mainn .btn-show-more {
   color: #fff;
   border: none;
   padding: 10px 20px;
@@ -260,7 +260,7 @@ main {
   margin-top: 2%;
 }
 
-.resposta {
+.comments-container {
   width: 100%;
   height: 130px;
   display: flex;
