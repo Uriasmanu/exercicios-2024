@@ -1,0 +1,172 @@
+.container-disc {
+  box-sizing: border-box;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 20px;
+  padding: 3%;
+}
+
+h4 {
+  font-size: 18px;
+}
+
+.imagens {
+  display: flex;
+  gap: 50px;
+}
+
+p {
+  width: 60%;
+}
+
+.linha {
+  width: 100%;
+  border: #ececec solid 1px;
+  margin-top: 2%;
+}
+
+button {
+  display: flex;
+    background: linear-gradient(to bottom right, #ffb354, #ee7a3a);
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+    height: 35px;
+    width: 150px;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+
+}
+
+
+.buton {
+  display: flex;
+    background: linear-gradient(to bottom right, #ffb354, #ee7a3a);
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+    height: 35px;
+    width: 150px;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    position: relative;
+    top: -42px;
+}
+
+
+.coments {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 85%;
+}
+
+form {
+  height: 100%;
+  width: 70vw;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 5%;
+  gap: 10px;
+
+  p {
+    text-align: center;
+    width: 100%;
+  }
+
+  label {
+    color: #ed7839;
+    font-size: 18px;
+    font-weight: 600;
+  }
+
+  input {
+    border: #cccccc solid 1px;
+    padding: 1%;
+  }
+
+  #content{
+    height: 78px;
+  }
+  .div-button{
+    display: flex;
+    width: 100%;
+    height: auto;
+    background: #CCCCCC;
+    justify-content: flex-end;
+  }
+}
+
+
+.topco-Resp{
+  height: 100%;
+  width: 70vw;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 5%;
+  align-items: center;
+  padding: 2%;
+  text-align: center;
+  gap: 10px;
+
+  h4{
+    color: #ed7839;
+    font-size: 18px;
+    font-weight: 600;
+    margin: 0;
+  }
+
+p{
+  color: #595959;
+  margin: 0;
+}
+
+  a{
+    color: #F48F44;
+    font-size: 15px;
+    margin: 0;
+    font-weight: 300;
+
+  }
+
+  h6{
+    color: #707070;
+    font-size: 15px;
+    margin: 0;
+  }
+  .linha-butto{
+    width: 100%;
+    margin-top: 3%;
+  }
+
+  .butonn {
+    display: flex;
+      background: linear-gradient(to bottom right, #ffb354, #ee7a3a);
+      border: none;
+      color: #fff;
+      border-radius: 5px;
+      height: 35px;
+      width: 150px;
+      align-items: center;
+      justify-content: center;
+      font-size: 15px;
+      position: relative;
+      top: -19px;
+      left: 43%;
+  }
+
+  .resposta{
+    background: #dddddd4d;
+    width: 100%;
+    height: auto;
+    padding: 3%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+}
